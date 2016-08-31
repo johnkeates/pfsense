@@ -474,7 +474,7 @@ if (($pagename === "index.php") && ($numColumns > 2)) {
 		</div>
 	</div>
 </nav>
-
+<div style="color: #ccc;" class="container"><?php echo htmlspecialchars($config['system']['hostname'] . "." . $config['system']['domain']); ?></div>
 <div class="container <?=$menuclass?>" <?=$columnsContainer?>>
 	<header class="header">
 
